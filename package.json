@@ -1,0 +1,29 @@
+{
+  "name": "hotel-admin-spa",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "node --experimental-strip-types --test tests/admin-navigation.test.ts tests/navigation-preferences.test.ts tests/pagination.test.ts tests/room-api.test.ts tests/booking-api.test.ts tests/guest-api.test.ts tests/api-response.test.ts tests/api-auth-policy.test.ts tests/auth-routing.test.ts tests/auth-token-storage.test.ts tests/auth-user.test.ts",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^1.0.3",
+    "nuxt": "^4.6.3",
+    "pinia": "^4.1.0",
+    "vuetify": "^4.3.1",
+    "vuetify-nuxt-module": "^1.0.0-rc.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.0.9"
+  }
+}

@@ -1,0 +1,14 @@
+.data
+.output
+.nuxt
+.wrangler
+node_modules
+dist
+.agents/
+.stitch.json
+plan/
+WORKFLOW_AGENT.md
+.env
+.env.*
+!.env.example
+*.log
